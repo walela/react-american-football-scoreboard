@@ -10,17 +10,17 @@ function App() {
 
   const touchDownCounter = side => {
     if (side === "home") {
-      sethomeScore(homeScore + 7);
+      setHomeScore(homeScore + 7);
     } else {
-      setawayScore(awayScore + 7);
+      setAwayScore(awayScore + 7);
     }
   };
 
   const fieldGoalCounter = side => {
     if (side === "home") {
-      sethomeScore(homeScore + 3);
+      setHomeScore(homeScore + 3);
     } else {
-      setawayScore(awayScore + 3);
+      setAwayScore(awayScore + 3);
     }
   };
 
